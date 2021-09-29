@@ -20,8 +20,11 @@ html {
     position: fixed;
     z-index: 1;
     padding: 0 24px;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 .colmaracademy_logo_container {
-    
+    display: inline-flex;
 }
+
