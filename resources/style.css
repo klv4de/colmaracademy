@@ -9,7 +9,8 @@ html {
 .topbar_container {
     width: 100%;
     height: 64px;
-    background-color: #FBFBFB;   
+    background-color: #FBFBFB; 
+    z-index: 0;
 }
 
 .header_container {
@@ -18,4 +19,9 @@ html {
     background-color: #FBFBFB;
     position: fixed;
     z-index: 1;
+    padding: 0 24px;
+}
+
+.colmaracademy_logo_container {
+    
 }
