@@ -23,7 +23,8 @@ video {
     position: fixed;
     z-index: 1;
     padding-left: 24px;
-    padding-right: 24px;
+    /* padding-right: 24px; */
+    /* why doens't this work */
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -41,10 +42,6 @@ video {
 
 .colmaracademy_logo_container h1{
     font-size: 32px;
-}
-
-.header_navigation_container {
-    display: inline-flex;
 }
 
 .header_navigation_container ul {
