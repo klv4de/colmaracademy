@@ -1,7 +1,8 @@
-* {
+html, body, footer {
     padding: 0px;
     margin: 0px;
     color: #454545;
+    max-width: 100%;
 }
 
 video {
