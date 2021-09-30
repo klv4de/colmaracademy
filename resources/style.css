@@ -1,8 +1,10 @@
-html {
+* {
     padding: 0px;
     margin: 0px;
-    background-color: #CACACA;
     color: #454545;
+}
+
+video {
     max-width: 100%;
 }
 
@@ -19,12 +21,41 @@ html {
     background-color: #FBFBFB;
     position: fixed;
     z-index: 1;
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .colmaracademy_logo_container {
     display: inline-flex;
+    align-items: center;
 }
+
+.colmaracademy_logo_container img {
+    height: 60px;
+    width: auto;
+}
+
+.colmaracademy_logo_container h1{
+    font-size: 32px;
+}
+
+.header_navigation_container {
+    display: inline-flex;
+}
+
+.header_navigation_container ul {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 24px;
+    /* why do I need to do this? I'm confused why the padding doesn't work in the first place. */
+}
+
+.header_navigation_container ul li {
+    padding-right: 16px;
+    font-size: 32px;
+}
+
 
