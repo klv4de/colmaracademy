@@ -1,7 +1,7 @@
 html, body, footer {
     padding: 0px;
     margin: 0px;
-    color: #454545;
+    color: black;
     max-width: 100%;
 }
 
@@ -56,4 +56,33 @@ video {
     font-size: 32px;
 }
 
+.starthere_container {
+    background-color: lightgray;
+    display: inline-flex;
+    max-width: 100%;
+    padding: 32px 24px;
+    /* justify-content: center; */
+    justify-items: center;
+}
 
+.starthere_container .image_container {
+    width: 60%;
+    height: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.starthere_container .image_container img {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.starthere_container .starthere_text_container {
+    padding-left: 24px;
+    max-width: 30%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
