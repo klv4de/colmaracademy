@@ -1,8 +1,9 @@
 html, body, footer {
     padding: 0px;
     margin: 0px;
-    color: black;
+    color: rgba(0, 0, 0, 0.733);
     max-width: 100%;
+    font-family: sans-serif;
 }
 
 video {
@@ -11,14 +12,14 @@ video {
 
 .topbar_container {
     width: 100%;
-    height: 64px;
+    height: 80px;
     background-color: #FBFBFB; 
     z-index: 0;
 }
 
 .header_container {
     width: 100%;
-    height: 64px;
+    height: 80px;
     background-color: #FBFBFB;
     position: fixed;
     z-index: 1;
@@ -44,6 +45,11 @@ video {
     font-size: 32px;
 }
 
+.colmaracademy_logo_container .academy {
+    font-weight: lighter;
+    color: grey;
+}
+
 .header_navigation_container ul {
     list-style: none;
     display: inline-flex;
@@ -53,14 +59,14 @@ video {
 
 .header_navigation_container ul li {
     padding-right: 16px;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .starthere_container {
     background-color: lightgray;
     display: inline-flex;
     max-width: 100%;
-    padding: 32px 24px;
+    padding: 48px 48px;
     /* justify-content: center; */
     justify-items: center;
 }
@@ -79,10 +85,73 @@ video {
 }
 
 .starthere_container .starthere_text_container {
-    padding-left: 24px;
+    padding-left: 72px;
     max-width: 30%;
     /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.starthere_container .starthere_text_container h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.starthere_container .starthere_text_container h2 {
+    font-size: 32px;
+}
+
+.starthere_container .starthere_text_container .button {
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 18px 0;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.section_container {
+    max-width: 100%;
+    height: auto;
+    display: inline-flex;
+    padding: 48px 48px;
+}
+
+.section_container .quote_container {
+    width: 60%;
+    height: auto;
+}
+.section_container .quote_container img {
+    width: 100%;
+    height: auto;
+}
+
+.section_container .keyarticles_container {
+    width: 30%;
+    padding-left: 72px;
+    display: block;
+}
+
+.section_container .keyarticles_container .article {
+    display: inline-flex;
+}
+
+.section_container .keyarticles_container .article .image {
+    width: 35%;
+    height: auto;
+    align-items: center;
+}
+
+
+.section_container .keyarticles_container .article .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section_container .keyarticles_container .article .text {
+    width: 65%;
+    height: auto;
 }
