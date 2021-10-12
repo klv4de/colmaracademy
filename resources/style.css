@@ -118,6 +118,7 @@ video {
     width: 100%;
     display: inline-flex;
     padding: 0;
+    background-color: whitesmoke;
 }
 
 .section_container .quote_container {
@@ -144,7 +145,7 @@ video {
 .section_container .quote_container p {
     margin: 0;
     font-size: 26px;
-    padding: 0 0 70px 0;
+    padding: 0 50px 70px 0;
 }
 
 .section_container .quote_container h3 {
@@ -230,6 +231,8 @@ video {
 .startlearning_container {
     width: 100%;
     background-color: rgb(228, 228, 228);
+    margin: 0;
+    padding: 0;
     /* display: flex; */
 }
 
@@ -237,6 +240,7 @@ video {
     font-size: 50px;
     font-weight: bold;
     padding: 60px 0 40px 0;
+    margin: 0;
     width: 100%;
     height: auto;
     text-align: center;
@@ -276,4 +280,146 @@ video {
     font-weight: lighter;
     padding: 16px 160px 50px 32px;
     margin: 0;
+}
+
+.thesis_container {
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.thesis_container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 60px 0 40px 0;
+    margin: 0;
+}
+
+.thesis_container .thesis_content_container {
+    width: 100%;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.thesis_container .thesis_content_container .quote_container {
+    width: 60%;
+    margin: 40px;
+    padding: 0;
+}
+
+.thesis_container .thesis_content_container .quote_container video {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.thesis_container .thesis_content_container .quote_container h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+    padding: 32px 0 40px 0;
+    text-align: left;
+}
+
+.thesis_container .thesis_content_container .quote_container p {
+    font-size: 26px;
+    padding: 0;
+    margin: 0 50px 20px 0;
+    text-align: left;
+}
+
+.thesis_container .thesis_content_container .keyarticles_container {
+    width: 40%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 40px 0 40px 0;
+    padding: 0;
+}
+
+.thesis_container .thesis_content_container .keyarticles_container .article {
+    display: inline-flex;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0 0 1px 0; 
+    padding: 0;
+}
+
+.thesis_container .thesis_content_container .keyarticles_container .article .image {
+    width: 35%;
+    height: auto;
+    align-items: center;
+    padding: 0; 
+    margin: 24px;   
+}
+
+.thesis_container .thesis_content_container .keyarticles_container .article .text {
+    width: 65%;
+    height: 100%;
+    padding: 0 0 0 40px;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.thesis_container .thesis_content_container .keyarticles_container .article .text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 15px 0;
+    text-align: left;
+}
+
+.thesis_container .thesis_content_container .keyarticles_container .article .text h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0 0 15px 0;
+    text-align: left;
+}
+
+
+.thesis_container .thesis_content_container .keyarticles_container .article:hover {
+    transition-property: background-color;
+    background-color: lightgrey;
+    transition-duration: .1s;
+}
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid lightgrey;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+footer .copyright {
+    padding: 1px 24px 16px 24px;
+    margin: 0;
+}
+
+footer .copyright h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+footer .terms {
+    padding: 1px 24px 16px 24px;
+    margin: 0;
+}
+
+footer .terms ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+footer .terms ul li {
+    padding-left: 10px;
+    font-size: 14px;
 }
