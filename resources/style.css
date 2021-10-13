@@ -1,3 +1,14 @@
+/* @media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+
+    } */
+
+/* @media only screen 
+    and (max-width: 1012) {
+
+    } */
+
 html, body, footer {
     padding: 0px;
     margin: 0px;
@@ -60,6 +71,10 @@ video {
 .header_container .header_navigation_container ul li {
     padding-right: 16px;
     font-size: 28px;
+}
+
+.header_container .header_navigation_container ul .image {
+    display: none;
 }
 
 .starthere_container {
@@ -195,6 +210,10 @@ video {
     align-items: center;
     padding: 0; 
     margin: 24px;
+}
+
+.section_container .keyarticles_container .article .image .mobile {
+    display: none;
 }
 
 .section_container .keyarticles_container .article .image img {
