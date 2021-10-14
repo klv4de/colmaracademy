@@ -53,9 +53,28 @@ video {
     width: auto;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .header_container .colmaracademy_logo_container img {
+            height: 45px;
+        }
+        
+    } 
+
+
 .header_container .colmaracademy_logo_container h1{
     font-size: 32px;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .header_container .colmaracademy_logo_container h1{
+            font-size: 30px;
+        }
+    } 
+
 
 .header_container .colmaracademy_logo_container .academy {
     font-weight: lighter;
@@ -72,6 +91,15 @@ video {
     padding-right: 16px;
     font-size: 28px;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .header_container .header_navigation_container ul li {
+            padding-right: 20px;
+            font-size: 20px;
+        }
+    }
 
 .header_container .header_navigation_container ul .image {
     display: none;
@@ -111,11 +139,31 @@ video {
     padding: 0 0 60px 0;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .starthere_container .starthere_text_container h1 {
+            font-size: 40px;
+            margin: 0 20px 0 16px;
+            padding: 0 0 40px 0;
+        }
+    }
+
 .starthere_container .starthere_text_container h2 {
     font-size: 32px;
     margin: 0 100px 0 24px;
     padding: 0 0 60px 0;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .starthere_container .starthere_text_container h2 {
+            font-size: 20px;
+            margin: 0 20px 0 16px;
+            padding: 0 0 40px 0;
+        }
+    }
 
 .starthere_container .starthere_text_container .button {
     font-size: 32px;
@@ -126,8 +174,17 @@ video {
     text-align: center;
     border-radius: 4px;
     margin: 0 180px 0 24px;
-
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .starthere_container .starthere_text_container .button {
+            font-size: 20px;
+            width: 250px;
+            margin: 0 0 0 16px;
+        }
+    }
 
 .section_container {
     width: 100%;
