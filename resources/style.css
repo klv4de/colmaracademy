@@ -57,7 +57,7 @@ video {
     and (min-width: 1013px)
     and (max-width: 1383px) {
         .header_container .colmaracademy_logo_container img {
-            height: 45px;
+            height: 40px;
         }
         
     } 
@@ -88,7 +88,7 @@ video {
 }
 
 .header_container .header_navigation_container ul li {
-    padding-right: 16px;
+    margin-right: 16px;
     font-size: 28px;
 }
 
@@ -96,8 +96,8 @@ video {
     and (min-width: 1013px)
     and (max-width: 1383px) {
         .header_container .header_navigation_container ul li {
-            padding-right: 20px;
-            font-size: 20px;
+            margin-right: 20px;
+            font-size: 22px;
         }
     }
 
@@ -135,8 +135,8 @@ video {
 .starthere_container .starthere_text_container h1 {
     font-weight: bolder;
     font-size: 60px;
-    margin: 0 100px 0 24px;
-    padding: 0 0 60px 0;
+    margin: 0 100px 60px 24px;
+    padding: 0;
 }
 
 @media only screen 
@@ -144,15 +144,14 @@ video {
     and (max-width: 1383px) {
         .starthere_container .starthere_text_container h1 {
             font-size: 40px;
-            margin: 0 20px 0 16px;
-            padding: 0 0 40px 0;
+            margin: 0 20px 40px 16px;
         }
     }
 
 .starthere_container .starthere_text_container h2 {
     font-size: 32px;
-    margin: 0 100px 0 24px;
-    padding: 0 0 60px 0;
+    margin: 0 100px 60px 24px;
+    padding: 0;
 }
 
 @media only screen 
@@ -160,8 +159,7 @@ video {
     and (max-width: 1383px) {
         .starthere_container .starthere_text_container h2 {
             font-size: 20px;
-            margin: 0 20px 0 16px;
-            padding: 0 0 40px 0;
+            margin: 0 20px 40px 16px;
         }
     }
 
@@ -209,15 +207,16 @@ video {
 .section_container .quote_container h1 {
     font-weight: bolder;
     font-size: 50px;
-    margin: 0;
-    padding: 32px 0 40px 0;
+    margin: 32px 0 40px 0;
+    padding: 0;
 }
 
 
 .section_container .quote_container p {
     margin: 0;
     font-size: 26px;
-    padding: 0 50px 70px 0;
+    margin: 0 50px 70px 0;
+    padding: 0;
 }
 
 .section_container .quote_container h3 {
@@ -237,6 +236,14 @@ video {
     padding: 0;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .section_container .keyarticles_container {
+            justify-content: space-around;
+        }
+    }
+
 .section_container .keyarticles_container .article {
     display: inline-flex;
     width: 100%;
@@ -253,6 +260,13 @@ video {
     margin: 0 0 32px 0; 
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        #article3 {
+            margin: 0 0 50px 0;
+        }
+    }
 
 .section_container .keyarticles_container .article:hover {
     transition-property: background-color;
@@ -269,6 +283,14 @@ video {
     margin: 24px;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .section_container .keyarticles_container .article .image {
+            margin: 10px;
+        }
+    }
+
 .section_container .keyarticles_container .article .image .mobile {
     display: none;
 }
@@ -280,25 +302,51 @@ video {
 .section_container .keyarticles_container .article .text {
     width: 65%;
     height: 100%;
-    padding-left: 40px;
+    margin-left: 40px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .section_container .keyarticles_container .article .text {
+            margin-left: 10px;
+        }
+    }
+
 .section_container .keyarticles_container .article .text .header {
     font-size: 32px;
     font-weight: bold;
-    margin: 0;
-    padding-bottom: 15px;
+    margin: 0 0 25px 0;
+    padding: 0;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .section_container .keyarticles_container .article .text .header {
+            font-size: 22px;
+            margin: 0 0 5px 0;
+        }
+    }
 
 .section_container .keyarticles_container .article .text .details {
     font-size: 20px;
     font-weight: lighter;
-    margin: 0;
-    padding-bottom: 15px;
+    margin: 0 0 25px 0;
+    padding: 0;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .section_container .keyarticles_container .article .text .details {
+            font-size: 18px;
+            margin: 0 0 5px 0;
+        }
+    }
 
 .section_container .keyarticles_container .article .text .article_link {
     font-size: 20px;
@@ -307,12 +355,19 @@ video {
     margin: 0;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .section_container .keyarticles_container .article .text .article_link {
+            font-size: 18px;
+        }
+    }
+
 .startlearning_container {
     width: 100%;
     background-color: rgb(228, 228, 228);
     margin: 0;
     padding: 0;
-    /* display: flex; */
 }
 
 .startlearning_container .header {
@@ -343,23 +398,49 @@ video {
 .startlearning_container .class_grid_container .class_container h1 {
     font-size: 32px;
     font-weight: bold;
-    padding: 50px 0 24px 32px;
-    margin: 0;
+    margin: 50px 0 24px 32px;
+    padding: 0;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .startlearning_container .class_grid_container .class_container h1 {
+            font-size: 20px;
+            margin: 30px 0 24px 32px;
+        }
+    }
 
 .startlearning_container .class_grid_container .class_container h2 {
     font-size: 20px;
     font-weight: lighter;
-    padding: 0 0 0 32px;    
-    margin: 0;
+    margin: 0 0 0 32px;    
+    padding: 0;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .startlearning_container .class_grid_container .class_container h2 {
+            font-size: 18px;
+        }
+    }
 
 .startlearning_container .class_grid_container .class_container h3 {
     font-size: 20px;
     font-weight: lighter;
-    padding: 16px 160px 50px 32px;
-    margin: 0;
+    margin: 16px 160px 50px 32px;
+    padding: 0;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .startlearning_container .class_grid_container .class_container h3 {
+            font-size: 18px;
+            margin: 16px 5px 30px 32px;
+        }
+    }
 
 .thesis_container {
     width: 100%;
@@ -396,8 +477,8 @@ video {
 .thesis_container .thesis_content_container .quote_container h1 {
     font-weight: bolder;
     font-size: 50px;
-    margin: 0;
-    padding: 32px 0 40px 0;
+    padding: 0;
+    margin: 32px 0 40px 0;
     text-align: left;
 }
 
@@ -422,7 +503,7 @@ video {
     width: 100%;
     border-radius: 5px;
     align-items: center;
-    margin: 0 0 1px 0; 
+    margin: 0 0 40px 0; 
     padding: 0;
 }
 
@@ -434,6 +515,14 @@ video {
     margin: 24px;   
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .thesis_container .thesis_content_container .keyarticles_container .article .image {
+            margin: 10px;
+        }
+    }
+
 .thesis_container .thesis_content_container .keyarticles_container .article .image img {
     width: 100%;
 }
@@ -441,29 +530,52 @@ video {
 .thesis_container .thesis_content_container .keyarticles_container .article .text {
     width: 65%;
     height: 100%;
-    padding: 0 0 0 40px;
-    margin: 0;
+    margin: 0 0 0 40px;
+    padding: 0;
     display: inline-flex;
     flex-direction: column;
     justify-content: center; 
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .thesis_container .thesis_content_container .keyarticles_container .article .text {
+            margin: 0 0 0 10px;
+        }
+    }
+
 .thesis_container .thesis_content_container .keyarticles_container .article .text h1 {
     font-size: 32px;
     font-weight: bold;
-    margin: 0;
-    padding: 0 0 15px 0;
+    padding: 0;
+    margin: 0 0 15px 0;
     text-align: left;
 }
+
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .thesis_container .thesis_content_container .keyarticles_container .article .text h1 {
+            font-size: 22px;
+        }
+    }
 
 .thesis_container .thesis_content_container .keyarticles_container .article .text h2 {
     font-size: 20px;
     font-weight: lighter;
-    margin: 0;
-    padding: 0 0 15px 0;
+    padding: 0;
+    margin: 0 0 15px 0;
     text-align: left;
 }
 
+@media only screen 
+    and (min-width: 1013px)
+    and (max-width: 1383px) {
+        .thesis_container .thesis_content_container .keyarticles_container .article .text h2{
+            font-size: 18px;
+        }
+    }
 
 .thesis_container .thesis_content_container .keyarticles_container .article:hover {
     transition-property: background-color;
