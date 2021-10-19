@@ -441,6 +441,12 @@ video {
     transition-duration: .1s;
 }
 
+@media only screen 
+    and (max-width: 1012px) {
+        .section_container .keyarticles_container .article:hover {
+            background-color: whitesmoke;
+        }
+    }
 
 .section_container .keyarticles_container .article .image {
     width: 35%;
