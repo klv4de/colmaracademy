@@ -319,7 +319,6 @@ video {
         }       
     }   
 
-
 .section_container .quote_container img {
     width: 100%;
     height: auto;
@@ -348,7 +347,6 @@ video {
     font-size: 20px;
     font-weight: 550;
 }
-
 
 .section_container .keyarticles_container {
     width: 40%;
@@ -395,7 +393,6 @@ video {
         }        
     }
 
-
 #article1 {
     margin: 40px 0 1px 0;
 }
@@ -407,7 +404,6 @@ video {
             padding: 0;
         }
     }
-
 
 #article3 {
     margin: 0 0 32px 0; 
@@ -428,7 +424,6 @@ video {
             padding: 0;
         }        
     }
-
 
 .section_container .keyarticles_container .article:hover {
     transition-property: background-color;
@@ -487,7 +482,6 @@ video {
             display: none;
         }        
     }
-
 
 .section_container .keyarticles_container .article .image img {
     width: 100%;
@@ -580,7 +574,7 @@ video {
         }
     }
 
- @media only screen 
+@media only screen 
     and (max-width: 1012px) {
         .section_container .keyarticles_container .article .text .article_link {
             margin: 0 0 0 32px;
@@ -705,7 +699,6 @@ video {
             display: none;
         }
     }
-
 
 .startlearning_container .class_grid_container .class_container h3 {
     font-size: 20px;
